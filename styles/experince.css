@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 99.2%;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid green;   */
+}
+
+.video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.firstheader{
+    height: 30%;
+    width: 99%;
+    border: 1px  solid red;
+    position: absolute;
+    top: 0px;
+}
+.header1 {
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    position:absolute;
+    top: 65px;
+}
+.image1{
+    height: 60px;
+    width: 60px;
+    background-color:white; 
+     border-radius:50px;
+     margin-bottom: 12px;
+
+}
+.header2 {
+    height: 20%;
+    width: 55%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 65px;
+    left: 600px;
+}
+.header3{
+    position: absolute;
+    top: 270px;
+    font-size: 55px;
+    color: #FFFFFF;
+    left: 280px;
+}
+
+.first {
+    height: 40vh;
+    width: 100%;
+    /* border: 1px solid blue; */
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+
+.second {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.secondtag1 {
+    height: 70%;
+    width: 40%;
+    /* border: 1px solid red; */
+
+}
+
+.secondtag2 {
+    height: 70%;
+    width: 40%;
+
+    /* border: 1px solid blueviolet; */
+}
+
+.firstsection {
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 60px;
+}
+
+.secondsection {
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsectionimage {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.third {
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    background-color: #efeeee;
+    /* flex-direction: row-reverse; */
+
+}
+
+.thirdimage {
+    width: 70%;
+    height: 70%;
+    margin-top: 75px;
+
+    /* border: 1px solid green; */
+    background-image: url(../assets/experience2.jpg);
+    object-fit: cover;
+}
+
+.thirdcardtext {
+    width: 40%;
+    height: 60%;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 155px;
+    left: 720px;
+    background-color: white;
+}
+
+.data {
+    width: 100%;
+    height: 33.2%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+
+.button {
+    height: 60px;
+    width: 130px;
+    font-size: 16px;
+    border: 1px solid #111111;
+}
+
+.fourth {
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    background-color: #efeeee;
+    flex-direction: row-reverse;
+}
+
+.fouthimage {
+    width: 62%;
+    height: 80%;
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    object-fit: contain;
+    background-image: url(../assets/experience3.jpg);
+    object-fit: cover;
+}
+
+.fourthcardtext {
+    width: 50%;
+    height: 60%;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 100px;
+    right: 560px;
+    background-color: white;
+}
+.fifth{
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    background-color: #efeeee;
+}
+.fifthimage {
+    width: 62%;
+    height: 80%;
+    margin-top: 110px;
+    /* border: 1px solid green; */
+    background-image: url(../assets/experience4.jpg);
+    object-fit: cover;
+}
+.six{
+    height: 75vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-image: url("../assets/experiece5.jpg");
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixcard{
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sixcard1{
+height: 50%;
+width: 100%;
+/* border: 1px solid blue; */
+font-size: 45px;
+color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 5px;
+}
+.sixcard2{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+}
+.footer1 {
+    height: 62vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.13px;
+    background-color: #161f1e;
+}
+.sixfirstclass {
+    height: 400px;
+    width: 50%;
+}
+
+.sixsecondclass {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six2frist {
+    height: 400px;
+    width: 50%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.six2second {
+    height: 400px;
+    width: 25%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.six2third {
+    height: 400px;
+    width: 25%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 {
+    height: 170px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161f1e;
+
+}
+
+.footerfirst {
+    height: 170px;
+    width: 50%;
+
+}
+
+.footersecond {
+    height: 170px;
+    width: 50%;
+
+} 
+.textunderline{
+    text-decoration: none;
+}
+.textunderline:hover{
+    text-decoration: underline;
+}

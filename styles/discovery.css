@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincard {
+
+    width: 100%;
+    height: 1880px;
+}
+
+.firstcard {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    background-image: url('../assets/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5 (1).png');
+}
+
+.firsttag {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.secondtag {
+    height: 200px;
+    display: flex;
+    gap: 45px;
+   margin-right: 65px;
+   padding: 20px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.secondgallary {
+    height: 200px;
+    width: 100%;
+}
+
+.firstimage1 {
+    /* margin-top: 40px;  */
+    /* margin-left: 60px; */
+    display: flex;
+    gap: 10px;
+
+}
+
+.firstimage {
+    height: 450px;
+    width: 100%;
+
+}
+
+.secondcard {
+    width: 100%;
+    height: 302px;
+    display: block;
+    /* border-collapse: collapse; */
+  
+    /* background-color: black; */
+}
+
+.secondfirstimage {
+    height: 300px;
+    width: 33.1%;
+}
+
+
+
+.thirdcard {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthcard {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 302px;
+}
+
+.fifthcard {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixcard {
+    /* border: 1px solid white; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161f1e;
+}
+
+.sixfirstclass {
+    height: 400px;
+    width: 50%;
+}
+
+.sixsecondclass {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six2frist {
+    height: 400px;
+    width: 50%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.six2second {
+    height: 400px;
+    width: 25%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.six2third {
+    height: 400px;
+    width: 25%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161f1e;
+
+}
+
+.footerfirst {
+    height: 170px;
+    width: 50%;
+
+}
+
+.footersecond {
+    height: 170px;
+    width: 50%;
+
+}
+
+.textunderline{
+    text-decoration: none;
+}
+.textunderline:hover{
+    text-decoration: underline;
+}
