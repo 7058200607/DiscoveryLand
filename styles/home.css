@@ -59,3 +59,41 @@ text-decoration: none;
 .content:hover {
     text-decoration: underline;
 }
+@media screen and (min-width:900px)and (max-width:1200px) {
+    body {
+        display: flex;
+    /* align-items: start; */
+        width: 150vw;
+        flex-direction: row;
+        border: 1px solid yellow;
+        flex-wrap: wrap;
+        /* margin-left: 20px; */
+
+    }
+    .logo{
+        /* border: 1px solid red; */
+        margin-right: 250px;
+    }
+}
+@media screen and (min-width:750px)and (max-width:900px) {
+    body {
+        display: flex;
+    /* align-items: start; */
+        width: 158vw;
+        flex-direction: row;
+        border: 1px solid red;
+        flex-wrap: wrap;
+        /* margin-left: 20px; */
+
+    }
+    .logo{
+        border: 1px solid red;
+    }
+
+    .fa-solid{
+        border: 1px solid blue;
+        position: absolute;
+        right: 500px;
+    }
+    
+}

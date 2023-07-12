@@ -286,11 +286,14 @@ body {
 
 @media only screen and (max-width: 700px) and (min-width:420px) {
     body {
-        display: flex;
-        flex-direction: row;
+       
+        width: 100%;
         border: 1px solid blue;
-        flex-wrap: wrap;
-
+   
+    }
+    .header1{
+        /* border: 1px solid red; */
+        padding-left: 150px;
     }
 
     .displaynone {
@@ -298,8 +301,9 @@ body {
     }
     .heading {
         display: flex;
+        height: 100%;
         width: 100%;
-        padding-right: 15px;
+        padding-right: 100px;
         justify-content: end;
         /* border: 1px solid red; */
     }
@@ -314,14 +318,27 @@ body {
     }
 
     .first {
-        height: 50%;
-        width: 45%;
-        /* border:  1px solid green; */
+        height: 100%;
+        width: 43%;
+        border:  1px solid green;
     }
+.footer2{
+    padding-top: 70px;
+    /* border: 1px solid red; */
+}
 
     .sixfirstclass {
         /* border: 1px solid red; */
         margin-right: 500px;
+    }
+    .six2frist{
+        /* border: 1px solid red; */
+        padding-right: 30px;
+    }
+    .six2third{
+/* border: 1px solid blue; */
+margin-right: 10px;
+/* width: 50%; */
     }
 
     .sixsecondclass {
@@ -362,7 +379,7 @@ body {
         flex-direction: column;
     }
     .footer1{
-        width: 96%;
+        width: 96.3%;
     }
 
     .sixfirstclass {
@@ -375,6 +392,7 @@ body {
 
 @media only screen and (max-width: 420px) {
     body {
+        /* width: 100px; */
         display: flex;
         flex-direction: row;
         border: 1px solid yellow;

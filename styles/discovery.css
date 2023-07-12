@@ -175,3 +175,51 @@
 .textunderline:hover{
     text-decoration: underline;
 }
+@media screen and (min-width:900px)and (max-width:1200px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid yellow;
+        /* flex-wrap: wrap; */
+        margin-left: 20px;
+    }
+  .secondfirstimage{
+    border: 1px solid red;
+    width: 33%;
+  }
+  .secondsection{
+    border: 1px solid blueviolet;
+  }
+  .footersecond{
+    /* border: 1px solid blue; */
+    margin-right: 55px;
+  }
+  .text{
+    padding-left: 50px;
+  }
+  .text1{
+    padding-right: 50px;
+  }
+  .meediaimage{
+    padding-right: 100px;
+  }
+  .meediaimage1{
+    padding-right: 100px;
+  }
+  .mediaimage2{
+    padding-left: 70px;
+  }
+  .fifthcard{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .fifthLandscape{
+    /* border: 1px solid blue; */
+    margin-left: 60px;
+  } 
+  .fifthlast{
+    /* border: 1px solid green; */
+    margin-right: 50px;
+    width: 120%;
+  }
+}
