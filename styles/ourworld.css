@@ -1,3 +1,11 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+
+
 body {
     /* height: 100vh; */
     width: 99.4%;
@@ -287,7 +295,7 @@ body {
 @media only screen and (max-width: 700px) and (min-width:420px) {
     body {
        
-        width: 100%;
+        width: 390vw;
         border: 1px solid blue;
    
     }
@@ -320,16 +328,20 @@ body {
     .first {
         height: 100%;
         width: 43%;
-        border:  1px solid green;
+        padding-left: 90px;
+        /* border:  1px solid green; */
     }
 .footer2{
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
     /* border: 1px solid red; */
 }
 
     .sixfirstclass {
         /* border: 1px solid red; */
-        margin-right: 500px;
+        margin-right: 2000px;
+       
     }
     .six2frist{
         /* border: 1px solid red; */
@@ -343,16 +355,10 @@ margin-right: 10px;
 
     .sixsecondclass {
         height: 100%;
-        width: 100%;
+        width: 200vh;
         /* border: 1px solid red; */
     }
 
-    .footer {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin-bottom: 400px;
-    }
 
     .footerfirst {
         height: 100%;
@@ -370,16 +376,11 @@ margin-right: 10px;
 
     }
 
-    .footer1,
-    .footer2,
-    .six2frist,
-    .six2second,
-    .six2third {
+   
+    .footer1{
+        width: 99.2%;
         display: flex;
         flex-direction: column;
-    }
-    .footer1{
-        width: 96.3%;
     }
 
     .sixfirstclass {
@@ -390,56 +391,3 @@ margin-right: 10px;
     }
 }
 
-@media only screen and (max-width: 420px) {
-    body {
-        /* width: 100px; */
-        display: flex;
-        flex-direction: row;
-        border: 1px solid yellow;
-        flex-wrap: wrap;
-
-    }
-    .displaynone {
-        display: none;
-    }
-    .heading {
-        display: flex;
-        width: 100%;
-        padding-right: 15px;
-        justify-content: end;
-        /* border: 1px solid red; */
-    }
-    .header1 {
-        width: 30%;
-    }
-
-    .header2 {
-        width: 100%;
-        display: flex;
-    }
-
-    .first {
-        height: 50%;
-        width: 100%;
-        /* border:  1px solid green; */
-    }
-
-    .sixsecondclass {
-        height: 100%;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
-
-    .footerfirst {
-        height: 100%;
-        width: 100%;
-        /* border: 1px solid yellow;   */
-    }
-
-    .footersecond {
-        height: 100%;
-        width: 100%;
-        /* border: 1px solid yellow; */
-        padding-right: 50px;
-    }
-}
