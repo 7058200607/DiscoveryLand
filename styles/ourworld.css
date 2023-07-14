@@ -1,11 +1,3 @@
-*{
-box-sizing: border-box;
-padding: 0px;
-margin: 0px;
-}
-
-
-
 body {
     /* height: 100vh; */
     width: 99.4%;
@@ -327,7 +319,7 @@ body {
 
     .first {
         height: 100%;
-        width: 43%;
+        width: 100%;
         padding-left: 90px;
         /* border:  1px solid green; */
     }
@@ -388,6 +380,12 @@ margin-right: 10px;
         justify-content: center;
         align-items: center;
         padding-left: 60px;
+    }
+    .text{
+        font-size: 70px;
+    }
+    .data{
+        font-size: 400px;
     }
 }
 
