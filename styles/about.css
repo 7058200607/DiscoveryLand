@@ -414,3 +414,338 @@
     text-decoration: underline;
 }
 
+@media screen and (min-width:900px)and (max-width:1200px) {
+    body {
+        width: 125.9%;
+        display: flex;
+        flex-direction: row;
+        border: 5px solid green;
+        flex-wrap: wrap;
+
+    }
+
+    .thirdsecond {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fourthtext {
+        height: 30%;
+        width: 95%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+
+    .fourthimage1 {
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+        padding-right: 60px;
+    }
+
+    .slideimage {
+        height: 100%;
+        width: 70%;
+        /* border: 2px solid yellow; */
+    }
+
+    .seventxtcard {
+        height: 42%;
+        width: 35%;
+        /* border: 1px solid green; */
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+
+    .sevenfirstimage {
+        height: 38%;
+        width: 43%;
+        /* border: 1px solid red; */
+        background-image: url(../assets/aboutdlc7.1.jpg);
+        object-fit: cover;
+        position: absolute;
+        top: 551px;
+        left: 40px;
+    }
+
+    .sevensecondimage {
+        height: 80%;
+        width: 50.7%;
+        /* border: 1px solid blue; */
+        background-image: url(../assets/aboutdlc7.jpg);
+        object-fit: cover;
+        position: absolute;
+        left: 572px;
+        top: 20px;
+    }
+}
+
+@media screen and (min-width:700px)and (max-width:900px) {
+    body {
+        width: 148.9%;
+        display: flex;
+        flex-direction: row;
+        border: 5px solid red;
+        flex-wrap: wrap;
+    }
+
+    .header1 {
+        height: 30%;
+        width: 30%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        position: absolute;
+        top: 65px;
+        left: 54px;
+    }
+
+    .image1 {
+        height: 77px;
+        width: 78px;
+        background-color: white;
+        border-radius: 50px;
+        margin-bottom: 12px;
+    }
+
+    .displaynone {
+        display: none;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .header3 {
+        position: absolute;
+        left: 355px;
+    }
+
+    .first {
+        height: 60vh;
+        width: 99%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .second {
+        height: 360vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second1section {
+        height: 80%;
+        width: 100%;
+    }
+
+    .text1 {
+        padding-left: 122px;
+    }
+
+    .text2 {
+        font-size: 34px;
+        padding-left: 113px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 298%;
+        overflow: hidden;
+    }
+
+    .slideimage {
+        height: 100%;
+        width: 128%;
+        /* border: 2px solid yellow; */
+    }
+
+    .thirdsecond {
+        display: flex;
+        align-items: center;
+        width: 91%;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .carousel-control-prev-icon {
+
+        margin-left: 73px;
+    }
+
+    .fourthtext {
+        height: 30%;
+        width: 90%;
+    }
+
+    .fourthimage {
+        height: 53%;
+        width: 100%;
+        padding-left: 2px;
+        margin-top: 194px;
+    }
+    .fifth {
+        height: 87vh;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .seventxtcard {
+        height: 46%;
+        width: 57%;
+        /* border: 1px solid green; */
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+    .sevensecondimage {
+        height: 80%;
+        width: 47%;
+        position: absolute;
+        left: 511px;
+        top: 20px;
+    }
+}
+@media screen and (min-width:400px)and (max-width:700px) {
+    body {
+        width: 248.9%;
+        display: flex;
+        flex-direction: row;
+        border: 5px solid blue;
+        flex-wrap: wrap;
+    }
+
+    .header1 {
+        height: 30%;
+        width: 30%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        position: absolute;
+        top: 65px;
+        left: 54px;
+    }
+
+    .image1 {
+        height: 77px;
+        width: 78px;
+        background-color: white;
+        border-radius: 50px;
+        margin-bottom: 12px;
+    }
+
+    .displaynone {
+        display: none;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .header3 {
+        position: absolute;
+        left: 355px;
+    }
+
+    .first {
+        height: 60vh;
+        width: 99%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .second {
+        height: 300vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second1section {
+        height: 80%;
+        width: 100%;
+    }
+
+    .text1 {
+        padding-left: 122px;
+    }
+
+    .text2 {
+        font-size: 34px;
+        padding-left: 113px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 298%;
+        overflow: hidden;
+    }
+
+    .slideimage {
+        height: 100%;
+        width: 128%;
+        /* border: 2px solid yellow; */
+    }
+
+    .thirdsecond {
+        display: flex;
+        align-items: center;
+        width: 91%;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .carousel-control-prev-icon {
+
+        margin-left: 73px;
+    }
+
+    .fourthtext {
+        height: 30%;
+        width: 90%;
+    }
+
+    .fourthimage {
+        height: 53%;
+        width: 100%;
+        padding-left: 2px;
+        margin-top: 194px;
+    }
+    .fifth {
+        height: 87vh;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .seventxtcard {
+        height: 46%;
+        width: 57%;
+        /* border: 1px solid green; */
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+    .sevensecondimage {
+        height: 80%;
+        width: 47%;
+        position: absolute;
+        left: 511px;
+        top: 20px;
+    }
+}
